@@ -1,0 +1,62 @@
+body {
+  background-color: yellow;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+label {
+  color: black;
+  padding: 3px;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 30px;
+
+  display: fixed;
+}
+
+form {
+  float: right;
+  width: 800px;
+  display: flex;
+
+  border: 3px solid black;
+  padding: 20px;
+}
+
+/* .workout {
+  display: flex;
+
+  padding: 10px;
+  border: 1px solid #bbb;
+  background-color: #eee;
+} */
+
+.info {
+  background-color: #bbb;
+  display: flex;
+}
+
+.exercise {
+  font-weight: bold;
+}
+
+.button {
+  position: absolute;
+  float: right;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 150%;
+}
+
+.container {
+  padding: 2px 16px;
+}
